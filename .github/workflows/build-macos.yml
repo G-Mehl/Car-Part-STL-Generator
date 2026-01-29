@@ -30,7 +30,7 @@ jobs:
           pyinstaller \
             --clean \
             --noconfirm \
-            --windowed \
+            --console \
             --name "Car-Part-STL-Generator" \
             --collect-all trimesh \
             --collect-all manifold3d \
@@ -69,7 +69,7 @@ jobs:
           pyinstaller \
             --clean \
             --noconfirm \
-            --windowed \
+            --console \
             --name "Car-Part-STL-Generator" \
             --collect-all trimesh \
             --collect-all manifold3d \
